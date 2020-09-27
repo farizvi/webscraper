@@ -16,7 +16,11 @@ This project consists of the Web API which invokes the web service from Core to 
 This is the user interface of the application which is developed using React and Typescript
 
 ## Running the application
-To install the nuget packages, navigate to following directory
+This application is developed using .Net Core 3.1, React and Typescript. To run this application
+ - Install [.Net Core](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+ - Install the latest version of [Node.js](https://nodejs.org/en/download/)
+
+ - To install the nuget packages, navigate to following directory
 ```
 src
 ```
@@ -25,19 +29,19 @@ and execute following command
 dotnet restore
 ```
 
-To install the dependencies for React application, navigate to following directory
+- To install the dependencies for React application, navigate to following directory
 ```
-src/WebAPI/ClientApp
+src/WebAPI/client-app
 ```
 and execute following command
 ```
 npm install
 ```
-When installation of npm packages is complete, navigate to following directory
+- When installation of npm packages is complete, navigate to following directory
 ```
 src/WebAPI
 ```
-Now execute following command
+- Now execute following command
 ```
 dotnet run
 ```
