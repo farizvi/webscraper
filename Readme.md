@@ -41,7 +41,11 @@ npm install
 ```
 src/WebAPI
 ```
-- Now execute following command
+- Now build the application by executing following command
+```
+dotnet build
+```
+- And finally, execute following command
 ```
 dotnet run
 ```
